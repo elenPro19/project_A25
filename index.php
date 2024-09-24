@@ -1,6 +1,7 @@
 <?php
 require_once 'App/Infrastructure/sdbh.php'; use sdbh\sdbh;
-$dbh = new sdbh();
+$dbh = new sdbh(['host'=> null, 'dbname' => 'test_a25', 'user' => 'root', 'pass' => '']);
+
 ?>
 <html>
 <head>
